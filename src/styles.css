@@ -1,0 +1,82 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-left: 0px;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  color: #6A2300;
+  margin-left: 20px;
+}
+
+.product-list {
+  font-family: 'Arial', sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  margin-left: 10px;
+  padding: 20px;
+  background-color: #E3B7A1;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.price {
+  float: right;
+}
+
+button {
+  background-color: #6A2300;
+  color: #6A2300;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+p {
+  text-align: center;
+  color: #555;
+  font-style: italic;
+}
+
+input[type="text"] {
+  margin: 20px auto;
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.credit, .credit a {
+  font-size: 12px;
+  color: rgb(154, 152, 152);
+  font-style: oblique;
+}
+
+.credit:hover, .credit a:hover {
+  font-size: 12px;
+  background-color: white;
+  color: black;
+  font-style: oblique;
+}
